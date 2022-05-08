@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "returnables",
+  "version": "${version}",
+
+  "name": "Returnables",
+  "description": "Halt functions at will",
+  "authors": [
+    "VelizarBG"
+  ],
+  "contact": {
+    "sources": "https://github.com/VelizarBG/returnables"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "velizarbg.returnables.Returnables"
+    ]
+  },
+
+  "mixins": [
+    "returnables.mixins.json"
+  ],
+  "accessWidener": "returnables.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}

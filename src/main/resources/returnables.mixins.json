@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "velizarbg.returnables.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CommandFunctionFunctionElementMixin",
+    "CommandFunctionManagerAccessor",
+    "CommandFunctionManagerEntryMixin",
+    "CommandFunctionManagerExecutionAccessor",
+    "CommandFunctionManagerExecutionMixin",
+    "CommandManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1,
+    "maxShiftBy": 3
+  }
+}
